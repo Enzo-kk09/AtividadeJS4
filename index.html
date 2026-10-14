@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle Interativo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="exercicio2.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Painel de Controle Interativo</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Caixa de Mudança de Estado</h2>
+            <div id="caixa">Clique aqui!</div>
+        </section>
+
+        <section>
+            <h2>2. Console de Teclado</h2>
+            <label for="campo-texto">Digite um texto:</label>
+            <input type="text" id="campo-texto">
+            <p id="tecla-pressionada">Você pressionou: nenhuma tecla</p>
+        </section>
+
+        <section>
+            <h2>3. Contador Dinâmico</h2>
+            <p>Contador: <output id="contador">0</output></p>
+            <button type="button" id="incrementar">Incrementar (+)</button>
+            <button type="button" id="decrementar">Decrementar (-)</button>
+        </section>
+    </main>
+</body>
+</html>
